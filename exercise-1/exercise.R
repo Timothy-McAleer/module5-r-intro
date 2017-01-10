@@ -22,3 +22,19 @@
 
 
 # Create a variable `max.puppies`, which is the number of puppies you can afford for $1,000.
+
+hometown <- "Pullman"
+my.name  <- "Timothy McAleer"
+my.height <- 72
+puppies <- 6
+puppy.price <- 120
+total.cost <- puppies * puppy.price
+too.expensive <- FALSE
+max.puppies <- round(1000 / puppy.price, 0)
+
+if (total.cost > 1000)
+{
+  too.expensive <- TRUE
+}
+
+
